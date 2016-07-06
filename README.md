@@ -3,7 +3,7 @@ Transforms Beeline Contractor reports for importing into Centerstone CAFM softwa
 
 If you use both Beeline and Centerstone for HR and facilities management then this script will come in handy when you have to constantly upload new contractors into Centerstone. This script uses a basic GUI to request an input Excel file (the auto-generated Beeline report) and then requests a save location. Super simple, but effective. 
 
-To use this script do the following: 
+To use this script input the following commands into your Terminal: 
 
     cd ~ 
     
