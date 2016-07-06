@@ -11,10 +11,10 @@ from tkFileDialog import askopenfilename, asksaveasfilename
 
 # GUI windows 
 Tk().withdraw() # prevents the root window from appearing
-filename = askopenfilename(initialdir ='~/Downloads') # show an "Open" dialog box and return the path to the selected file
+filename = askopenfilename(initialdir ='~') # show an "Open" dialog box and return the path to the selected file
 timestr = time.strftime("%m-%d-%Y")
 
-save_file = asksaveasfilename(initialdir='~/Documents/beeline_reports', initialfile='onboard_' + timestr)
+save_file = asksaveasfilename(initialdir='~', initialfile='contractors_' + timestr)
 
 # deleting, modifying, and inserting column data 
 df = pd.read_excel(filename)
