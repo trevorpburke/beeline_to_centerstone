@@ -5,13 +5,13 @@ If you use both Beeline and Centerstone for HR and facilities management then th
 
 To use this script input the following commands into your Terminal: 
 
-    cd ~ 
+    $ cd ~ 
     
-    git clone https://github.com/trevorpburke/beeline_to_centerstone.git
+    $ git clone https://github.com/trevorpburke/beeline_to_centerstone.git
 
-    cd beeline_to_centerstone
+    $ cd beeline_to_centerstone
 
-    python script.py 
+    $ python script.py 
 
 
 And there you go! 
