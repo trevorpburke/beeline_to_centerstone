@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+!/usr/bin/env python
 # this script takes in an Excel document of Contractors from Beeline and
 # changes the doc to accomodate Centerstone (CAFM) HR uploads 
 # Written by Trevor Burke circa June 2016
@@ -23,7 +23,7 @@ df = df.drop(df.columns[[6, 9, 10]], axis=1)
 
 df.rename(columns={'Beeline ID': 'Employee ID',
                     'Contingent Worker First Name': 'First Name',
-                    'Contingent Worker Last Name': 'Last Name'
+                    'Contingent Worker Last Name': 'Last Name',
                     'Date': 'Hire Date', 
                     'Date.1': 'End Date',
                     'Location Name': 'Business Site', 
