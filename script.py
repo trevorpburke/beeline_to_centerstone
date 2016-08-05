@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # this script takes in an Excel document of Contractors from Beeline and
 # changes the doc to accomodate Centerstone (CAFM) HR uploads 
-# Written by Trevor Burke circa June 2016
+# Written by Trevor Burke (trevorpburke@gmail.com) circa June 2016
 
 import pandas as pd
 import time
@@ -34,4 +34,3 @@ df.insert(loc=8, column='Employee Type Name', value='Contractor')
 
 # save to Desktop 
 df.to_csv(save_file, sep='\t', index=False)
-
