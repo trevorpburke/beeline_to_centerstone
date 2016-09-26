@@ -12,7 +12,7 @@ filename = sys.argv[1]
 timestr = time.strftime("%m-%d-%Y")
 
 # deleting, modifying, and inserting column data 
-df = pd.read_excel(filename)
+df = pd.read_excel(filename, encoding=sys.getfilesystemencoding())
 
 df = df.drop(df.columns[[6, 9, 10]], axis=1)
 
