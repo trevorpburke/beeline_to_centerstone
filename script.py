@@ -28,5 +28,5 @@ df.rename(columns={'Beeline ID': 'Employee ID',
 df.insert(loc=8, column='Employee Type Name', value='Contractor')
 
 # save to Desktop 
-df.to_csv("~/Documents/onboard_" + timestr, sep='\t', index=False,
+df.to_csv("~/Documents/beeline_reports/onboard_" + timestr, sep='\t', index=False,
           encoding='utf-8')
