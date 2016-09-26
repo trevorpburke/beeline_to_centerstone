@@ -11,7 +11,7 @@ To use this script input the following commands into your Terminal:
 
     $ cd beeline_to_centerstone
 
-    $ python script.py 
+    $ python script.py path/to/excel/file 
 
 
 And there you go! 
