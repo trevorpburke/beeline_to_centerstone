@@ -12,16 +12,16 @@ filename = sys.argv[1]
 timestr = time.strftime("%m-%d-%Y")
 
 # deleting, modifying, and inserting column data 
-df = pd.read_excel(filename, encoding=sys.getfilesystemencoding())
+df = pd.read_excel(filename, encoding='utf-8')
 
 df = df.drop(df.columns[[6, 9, 10]], axis=1)
 
 df.rename(columns={'Beeline ID': 'Employee ID',
                     'Contingent Worker First Name': 'First Name',
                     'Contingent Worker Last Name': 'Last Name',
-                    'Date': 'Hire Date', 
+                    'Date': 'Hire Date',
                     'Date.1': 'End Date',
-                    'Location Name': 'Business Site', 
+                    'Location Name': 'Business Site',
                     'Assignment Manager': 'Workers Manager',
                     'Billing Department Name': 'Supervisory Org'}, inplace=True)
 
