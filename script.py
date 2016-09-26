@@ -17,7 +17,7 @@ timestr = time.strftime("%m-%d-%Y")
 save_file = asksaveasfilename(initialdir='~/Documents/beeline_reports', initialfile='onboard_' + timestr)
 
 # deleting, modifying, and inserting column data 
-df = pd.read_excel(filename)
+df = pd.read_excel(filename, encoding='utf-8')
 
 df = df.drop(df.columns[[6, 9, 10]], axis=1)
 
@@ -33,4 +33,4 @@ df.rename(columns={'Beeline ID': 'Employee ID',
 df.insert(loc=8, column='Employee Type Name', value='Contractor')
 
 # save to Desktop 
-df.to_csv(save_file, sep='\t', index=False)
+df.to_csv(save_file, sep='\t', index=False, encoding='utf-8')
