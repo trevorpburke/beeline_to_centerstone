@@ -1,5 +1,4 @@
 #/usr/bin/env python
-# -*- coding: utf-8 -*-
 # this script takes in an Excel document of Contractors from Beeline and
 # changes the doc to accomodate Centerstone (CAFM) HR uploads 
 # Written by Trevor Burke (trevorpburke@gmail.com) circa June 2016
