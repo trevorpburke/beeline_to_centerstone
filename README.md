@@ -5,7 +5,7 @@ If you use both Beeline and Centerstone for HR and facilities management then th
 
 To use this script input the following commands into your Terminal: 
 
-    $ cd ~ 
+    $ cd
     
     $ git clone https://github.com/trevorpburke/beeline_to_centerstone.git
 
